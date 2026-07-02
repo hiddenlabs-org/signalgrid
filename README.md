@@ -2,7 +2,7 @@
 
 **Track real-world signals about companies and founders — from GitHub, domain registries, Hacker News, and job boards — in one normalized, queryable stream.**
 
-Built by [Hidden Labs](https://github.com/hidden-labs). SignalGrid is the open-source core of the "Signals" stage in our research pipeline: `Signals → Research → Engineering → Verification → Intelligence`.
+Built by [Hidden Labs](https://github.com/hiddenlabs-org). SignalGrid is the open-source core of the "Signals" stage in our research pipeline: `Signals → Research → Engineering → Verification → Intelligence`.
 
 ```
 signalgrid track "Anthropic" --github-org anthropics --domain anthropic.com
@@ -126,4 +126,4 @@ MIT — see [LICENSE](LICENSE).
 
 ---
 
-*SignalGrid is maintained by [Hidden Labs](https://github.com/hidden-labs), a research and engineering company. hello.hiddenlabs@outlook.com*
+*SignalGrid is maintained by [Hidden Labs](https://github.com/hiddenlabs-org), a research and engineering company. hello.hiddenlabs@outlook.com*
