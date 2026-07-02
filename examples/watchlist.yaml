@@ -1,0 +1,25 @@
+# Example SignalGrid watchlist.
+# Run with: signalgrid track --watchlist examples/watchlist.yaml
+#
+# Every field except `name` is optional -- SignalGrid only runs the
+# connectors that have the fields they need for a given entity.
+
+entities:
+  - name: OpenAI
+    github_org: openai
+    domain: openai.com
+    hn_query: OpenAI
+    tags: [ai, foundation-model]
+
+  - name: Anthropic
+    github_org: anthropics
+    domain: anthropic.com
+    hn_query: Anthropic
+    tags: [ai, foundation-model]
+
+  - name: Vercel
+    github_org: vercel
+    domain: vercel.com
+    greenhouse_token: vercel
+    hn_query: Vercel
+    tags: [devtools, infra]
